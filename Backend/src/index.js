@@ -39,9 +39,9 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // welcome msg
-app.get("/", (req, res) => {
-    res.json("Server Deployed");
-}
+// app.get("/", (req, res) => {
+//     res.json("Server Deployed");
+// }
 
 // routes
 app.use("/api/auth", authRoutes);
